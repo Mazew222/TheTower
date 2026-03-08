@@ -1,0 +1,11 @@
+{
+  "name": "tower-wiki-scraper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape-fandom-pages.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
